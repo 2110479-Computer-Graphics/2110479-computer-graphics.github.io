@@ -1,40 +1,40 @@
 {
-  "hash": "87758ecb",
-  "configHash": "6176fba2",
-  "lockfileHash": "0a73d95c",
-  "browserHash": "a59309b5",
+  "hash": "cad30a8a",
+  "configHash": "beb618c1",
+  "lockfileHash": "6dd2b50d",
+  "browserHash": "08b95f1f",
   "optimized": {
     "vue": {
-      "src": "../../../../../../../../node_modules/.pnpm/vue@3.5.18/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "dc563a71",
+      "fileHash": "e129567b",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
-      "src": "../../../../../../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "80ef67bc",
+      "fileHash": "12c1fcb5",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../../../../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ed076279",
+      "fileHash": "845cacf5",
       "needsInterop": false
     },
     "@theme/index": {
-      "src": "../../../../../../../../node_modules/.pnpm/vitepress@1.6.4_@algolia+client-search@5.35.0_@types+node@22.10.7_postcss@8.5.6_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/index.js",
+      "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "db49e0a9",
+      "fileHash": "c397bced",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-QJXAXUQC": {
-      "file": "chunk-QJXAXUQC.js"
+    "chunk-AKQBXH3S": {
+      "file": "chunk-AKQBXH3S.js"
     },
-    "chunk-OVVF2CC2": {
-      "file": "chunk-OVVF2CC2.js"
+    "chunk-EAEFJUV4": {
+      "file": "chunk-EAEFJUV4.js"
     }
   }
 }
