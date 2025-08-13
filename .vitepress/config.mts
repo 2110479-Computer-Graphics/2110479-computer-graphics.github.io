@@ -1,11 +1,13 @@
-import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
+  mermaid: {},
+  mermaidPlugin: {
+    class: "mermaid my-class",
+  },
   title: "2110479 Computer Graphics",
   description: "2110479 Computer Graphics",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
       { text: "Resources", link: "/labs/01-hello-triangle" },

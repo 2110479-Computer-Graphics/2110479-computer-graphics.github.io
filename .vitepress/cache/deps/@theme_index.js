@@ -7,6 +7,7 @@ import {
   shallowRef,
   watch
 } from "./chunk-EAEFJUV4.js";
+import "./chunk-BUSYA2B4.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/Users/rufflogix/Documents/Workspace/Dev/cu-intania/2110479-computer-graphics.github.io/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
