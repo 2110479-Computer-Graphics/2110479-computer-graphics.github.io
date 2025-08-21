@@ -51,6 +51,8 @@ glEnableVertexAttribArray(1);
 
 ### Part 2: Upgrading the Artists (The Shaders)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/brDJVEPOeY8?si=J0dDgq_xhePZPeL9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Our old shaders only knew how to position vertices and draw a solid color. We need to give them an upgrade to handle textures.
 
 ```mermaid
