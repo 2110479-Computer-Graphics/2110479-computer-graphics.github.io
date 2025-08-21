@@ -21,6 +21,10 @@ export default withMermaid({
         text: "Labs",
         items: [
           { text: "01 - Hello Triangle", link: "/labs/01-hello-triangle" },
+          {
+            text: "02 - Texture and Shader",
+            link: "/labs/02-texture-and-shader",
+          },
         ],
       },
     ],
