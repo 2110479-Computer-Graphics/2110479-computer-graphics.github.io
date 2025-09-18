@@ -28,7 +28,6 @@ export default withMermaid({
     nav: [
       { text: "Home", link: "/" },
       { text: "Resources", link: "/labs/01-hello-triangle" },
-      { text: "Math Test", link: "/math-test" },
     ],
 
     sidebar: [
