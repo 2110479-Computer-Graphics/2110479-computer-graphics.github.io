@@ -8,9 +8,5 @@
     "mermaid": "^11.9.0",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
-  },
-  "dependencies": {
-    "@types/katex": "^0.16.7",
-    "katex": "^0.16.22"
   }
 }
