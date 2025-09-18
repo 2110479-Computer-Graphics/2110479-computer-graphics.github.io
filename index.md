@@ -4,24 +4,17 @@ layout: home
 
 hero:
   name: "2110479 Computer Graphics"
-  # text: "2110479 Computer Graphics"
-  tagline: Documentations for computer graphics course at Chulalongkorn university
+  tagline: "Documentation website for the Computer Graphics course at Chulalongkorn University."
   actions:
-    # - theme: brand
-    #   text: Markdown Examples
-    #   link: /markdown-examples
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
     - theme: brand
-      text: Labs
+      text: "Start with Labs"
       link: /labs/01-hello-triangle
 
 features:
   - title: Computer Graphics
-    details: Covers fundamental concepts of rendering, shading, lighting, and transformations used to create realistic and interactive visual scenes.
+    details: Learn the basics of rendering, shading, lighting, and transformations for creating visual scenes.
   - title: OpenGL
-    details: Hands-on experience with OpenGL for rendering 2D and 3D graphics, including shader programming and real-time rendering techniques.
+    details: Practice 2D and 3D graphics programming with OpenGL and shaders.
   - title: Ray Tracing
-    details: Implementation of ray tracing algorithms to simulate realistic lighting, reflections, refractions, and shadows for high-quality image generation.
+    details: Explore ray tracing for realistic lighting, reflections, and shadows.
 ---
