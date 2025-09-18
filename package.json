@@ -1,9 +1,22 @@
 {
+  "name": "2110479-computer-graphics-docs",
+  "version": "1.0.0",
+  "description": "Documentation website for 2110479 Computer Graphics course at Chulalongkorn University",
+  "type": "module",
   "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "keywords": [
+    "computer-graphics",
+    "opengl",
+    "documentation",
+    "vitepress"
+  ],
   "devDependencies": {
     "mermaid": "^11.9.0",
     "vitepress": "^1.6.4",
