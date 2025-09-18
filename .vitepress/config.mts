@@ -25,6 +25,10 @@ export default withMermaid({
             text: "02 - Texture and Shader",
             link: "/labs/02-texture-and-shader",
           },
+          {
+            text: "05 - Ray Tracing",
+            link: "/labs/05-ray-tracing",
+          },
         ],
       },
     ],
