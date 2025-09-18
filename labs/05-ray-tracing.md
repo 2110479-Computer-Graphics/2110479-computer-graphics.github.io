@@ -149,6 +149,11 @@ Now it's your turn to be the artist and engineer.
 
 Good luck, and have fun creating your first photorealistic images!
 
+### Deliverables
+
+- Repository link with your completed code (if any).
+- What did you do for materials and shapes?
+- How do I make an image with a 16:9 aspect ratio, a width of 1920 pixels, and 100 samples per pixel render faster? Please also provide an analysis of the approaches you suggest.
 ---
 
 ### Resources
