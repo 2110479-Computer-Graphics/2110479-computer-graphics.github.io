@@ -20,7 +20,9 @@
   "devDependencies": {
     "mermaid": "^11.9.0",
     "vitepress": "^1.6.4",
-    "vitepress-plugin-mermaid": "^2.0.17",
-    "markdown-it-mathjax3": "^4.3.2"
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
   }
 }

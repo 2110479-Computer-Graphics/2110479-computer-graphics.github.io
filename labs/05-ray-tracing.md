@@ -6,7 +6,7 @@ Imagine you are a photographer in a virtual world. To take a picture, you don't 
 
 In this lab, you'll build the core of a ray tracer from scratch. You'll be the photographer, the lighting designer, and the architect of your own 3D world.
 
-![Github Repository](/public/images/ray-tracing-2.png)
+![Github Repository](/images/ray-tracing-2.png)
 
 [Repository Link](https://github.com/2110479-Computer-Graphics/Lab05-Raytracing)
 
@@ -22,7 +22,7 @@ Why PPM? It's a beautifully simple, text-based image format. You can literally o
 
 <div style="align-items: center; display: flex; flex-direction: column; gap: 1rem;">
 
-![PPM Image](/public/images/ray-tracing-3.png)
+![PPM Image](/images/ray-tracing-3.png)
 
 </div>
 
@@ -66,7 +66,7 @@ Think of the final image as a screen or "viewport" positioned in front of your c
 
 You've cast a ray out into the world. Now what? The ray travels in a straight line until it hits an object. Your next task is to detect that collision, or **intersection**.
 
-We'll start with the simplest 3D shape: a sphere. To find if a line (our ray) and a sphere intersect, we can use a bit of algebra. The ray can be described by the equation $$P(t) = A + t\vec{b}$$, where A is the ray's origin and $$\vec{b}$$ is its direction. The sphere is defined by all points a certain radius, _r_, from its center, _C_.
+We'll start with the simplest 3D shape: a sphere. To find if a line (our ray) and a sphere intersect, we can use a bit of algebra. The ray can be described by the equation $P(t) = A + t\vec{b}$, where A is the ray's origin and $\vec{b}$ is its direction. The sphere is defined by all points a certain radius, _r_, from its center, _C_.
 
 By solving for _t_, we can find the exact point of intersection.
 
@@ -129,7 +129,7 @@ Now it's your turn to be the artist and engineer.
 
 ### Example
 
-![Example](/public/images/ray-tracing-1.png)
+![Example](/images/ray-tracing-1.png)
 
 #### Task A: The Basic Scene
 

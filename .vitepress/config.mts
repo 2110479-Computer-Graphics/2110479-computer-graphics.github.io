@@ -1,21 +1,23 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
-import mathjax3 from "markdown-it-mathjax3";
 
-const customElements = ["mjx-container"];
+// @ts-ignore
+import katex from "markdown-it-katex";
 
 export default withMermaid({
   markdown: {
     config: (md) => {
-      md.use(mathjax3);
+      md.use(katex);
     },
   },
-  vue: {
-    template: {
-      compilerOptions: {
-        isCustomElement: (tag) => customElements.includes(tag),
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
       },
-    },
-  },
+    ],
+  ],
   mermaid: {},
   mermaidPlugin: {
     class: "mermaid my-class",
@@ -26,6 +28,7 @@ export default withMermaid({
     nav: [
       { text: "Home", link: "/" },
       { text: "Resources", link: "/labs/01-hello-triangle" },
+      { text: "Math Test", link: "/math-test" },
     ],
 
     sidebar: [

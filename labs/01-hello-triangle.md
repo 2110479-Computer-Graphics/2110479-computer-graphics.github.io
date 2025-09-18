@@ -12,7 +12,7 @@ The process can be broken down into three simple steps:
 2.  **Creation**: We ask GLFW to create the actual window with a specific size and title. We also tell OpenGL that this new window is the one we'll be drawing on.
 3.  **The Render Loop**: We create a loop that keeps the window open until the user decides to close it. This loop is the heartbeat of our program.
 
-![OpenGL Window](/public/images/hello-triangle-window-1.png)
+![OpenGL Window](/images/hello-triangle-window-1.png)
 
 Here's the code that accomplishes this:
 
@@ -43,17 +43,17 @@ int main() {
 
 #### What's happening in the Render Loop?
 
-*   `glfwSwapBuffers(window)`: Imagine you have two canvases. One is currently on display (the **front buffer**), and the other is hidden, where you are busy drawing the next frame (the **back buffer**). Once you're done drawing, you swap them, so the newly finished drawing is now visible. This technique is called **double buffering**, and it prevents the user from seeing a flickering, half-drawn image.
+- `glfwSwapBuffers(window)`: Imagine you have two canvases. One is currently on display (the **front buffer**), and the other is hidden, where you are busy drawing the next frame (the **back buffer**). Once you're done drawing, you swap them, so the newly finished drawing is now visible. This technique is called **double buffering**, and it prevents the user from seeing a flickering, half-drawn image.
 
-    *An illustration of Double Buffering. While one image is on the screen, the next one is being prepared in the background.*
+  _An illustration of Double Buffering. While one image is on the screen, the next one is being prepared in the background._
 
-*   `glfwPollEvents()`: This is you checking if the user has done anything, like clicking the 'X' button to close the window.
+- `glfwPollEvents()`: This is you checking if the user has done anything, like clicking the 'X' button to close the window.
 
 At this point, you have a blank window. Now, let's get ready to paint!
 
 ### Part 2: Drawing Your Image (The Triangle)
 
-![Triangle Window](/public/images/hello-triangle-window-2.png)
+![Triangle Window](/images/hello-triangle-window-2.png)
 
 To draw a triangle, we need to tell the Graphics Processing Unit (GPU) exactly what to draw and how to draw it. We can think of the GPU as a highly efficient factory for creating images. Our job is to send it the raw materials (data) and the instructions (programs).
 
@@ -84,8 +84,8 @@ float vertices[] = {
 
 We can't just send this array of numbers to the GPU directly. We need to load it into the GPU's memory. For this, we use special objects:
 
-*   **VBO (Vertex Buffer Object)**: Think of this as a box. We put our `vertices` data into this box to send it to the GPU.
-*   **VAO (Vertex Array Object)**: Think of this as a blueprint. It tells the GPU how to interpret the data inside the VBO box. It says, "The data for one vertex consists of 3 floating-point numbers." This way, the GPU knows how to read the coordinates for each corner.
+- **VBO (Vertex Buffer Object)**: Think of this as a box. We put our `vertices` data into this box to send it to the GPU.
+- **VAO (Vertex Array Object)**: Think of this as a blueprint. It tells the GPU how to interpret the data inside the VBO box. It says, "The data for one vertex consists of 3 floating-point numbers." This way, the GPU knows how to read the coordinates for each corner.
 
 ```cpp
 // Generate a VAO and VBO
